@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  background: transparent;
+  column-gap: 50px;
+  margin-top: 10px;
+  padding: 10px;
+
+  .card__img{
+    max-width: 150px;
+    width: 20%;
+    object-fit: fill;
+  }
+
+  .card__details {
+    width: 50%;
+  }
+
+  .card__priceContainer{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .card__img--shipping{
+    width: 20px;
+    height: 20px;
+  }
+
+  .card__price{
+    font-size: 25px;
+    margin: 10px 0px;
+  }
+
+}

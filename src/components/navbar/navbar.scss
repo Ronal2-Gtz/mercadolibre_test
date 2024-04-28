@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #fbe54d;
+
+  .navbar__img {
+    width: 80px;
+  }
+
+  .navbar__input {
+    padding: 5px 15px;
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+  }
+}

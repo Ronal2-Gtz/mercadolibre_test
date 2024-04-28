@@ -1,0 +1,12 @@
+.products {
+  width: calc(60% + 80px);
+  margin: auto;
+  background-color: #ffffff;
+
+  hr {
+    border: 0;
+    border-top: 2px solid #dfdfdf63;
+    height: 0;
+    margin: 10px 0;
+  }
+}
